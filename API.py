@@ -132,5 +132,15 @@ def editar_jogador_por_ano(ano):
                jogadores[indice].update(jogador_alterado)
                return jsonify(jogadores[indice])
 
+#Adicionar novo jogador.
+@app.route('/jogadores',methods=['POST'] )
+def incluir_novo_jogador():
+     novo_jogador = request.get_json()
+     jogadores.append(novo_jogador)
+
+     return jsonify (jogadores)
+
+             
+
 
 app.run(port=5000,host='localhost',debug=True)
