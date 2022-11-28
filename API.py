@@ -119,9 +119,18 @@ def  obter_jogadores():
 #Buscar por ano.
 @app.route('/jogadores/<int:ano>', methods=['GET'])
 def obter_jogador_por_ano(ano):
-    for jogadores in jogadores:
-        if jogadores.get('ano') == ano:
-             return jsonify (jogadores)
+    for jogador in jogadores:
+        if jogador.get('ano') == ano:
+             return jsonify (jogador)
+
+#Editar Jogadores.
+@app.route('/jogadores/<int:ano>',methods=['PUT'])
+def editar_jogador_por_ano(ano):
+     jogador_alterado = request.get_json() 
+     for indice,jogador in enumerate (jogadores):
+          if jogador.get(ano) == ano:
+               jogadores[indice].update(jogador_alterado)
+               return jsonify(jogadores[indice])
 
 
 app.run(port=5000,host='localhost',debug=True)
