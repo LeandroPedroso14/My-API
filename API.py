@@ -132,6 +132,8 @@ def editar_jogador_por_ano(ano):
                jogadores[indice].update(jogador_alterado)
                return jsonify(jogadores[indice])
 
+
+
 #Adicionar novo jogador.
 @app.route('/jogadores',methods=['POST'] )
 def incluir_novo_jogador():
@@ -140,7 +142,16 @@ def incluir_novo_jogador():
 
      return jsonify (jogadores)
 
-             
+
+
+#Excluir um jogador.
+@app.route('/jogadores/<int:ano>',methods=['DELETE'] )
+def excluir_jogador(ano):
+     for indice, jogador in enumerate(jogadores):
+          if jogador.get('ano') == ano:
+               del jogadores[indice]
+
+               return jsonify (jogadores)            
 
 
 app.run(port=5000,host='localhost',debug=True)
