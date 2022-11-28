@@ -3,109 +3,109 @@ from flask import Flask, jsonify , request
 app = Flask(__name__)
 
 jogadores = [
-    {
-        'ano'1930,
+       {
+        'ano':1930,
         'nome':'José Nasazzi',
-        'seleção':'Uruguai',
-    },
-    {
+        'seleção':'Uruguai'
+       },
+       {
         'ano':1934,
         'nome':'Giuseppe Meazza',
-        'seleção':'Itália',
-    },
-    {
+        'seleção':'Itália'
+       },
+       {
         'ano':1938,
-        'nome':'Leônidas da Silva',
-        'seleção':'Brasil',
-    },
-    {
+        'nome':'Leônanoas da Silva',
+        'seleção':'Brasil'
+       },
+       {
         'ano':1950,
         'nome':'Zizinho',
-        'seleção':'Brasil',
-    },
-    {
+        'seleção':'Brasil'
+       },
+       {
         'ano':1954,
         'nome':'Puskas',
-        'seleção':'Hungria',
-    },
-    {
+        'seleção':'Hungria'
+       },
+       {
         'ano':1958,
         'nome':'Pelé',
-        'seleção':'Brasil',
-    },
-    {
+        'seleção':'Brasil'
+       },
+       {
         'ano':1962,
         'nome':'Garrincha',
         'seleção':'Brasil',
-    },
-    {
+       },
+       {
         'ano':1966,
         'nome':'Bobby Charlton',
-        'seleção':'Inglaterra',
-    },
-    {
+        'seleção':'Inglaterra'
+       },
+       {
         'ano':1970,
         'nome':'Pelé',
-        'seleção':'Brasil',
-    },
-    {
+        'seleção':'Brasil'
+       },
+       {
         'ano':1974,
         'nome':'Cruyff',
-        'seleção':'Holanda',
-    },
-    {
+        'seleção':'Holanda'
+       },
+       {
         'ano':1978,
         'nome':'Mario Kempes',
-        'seleção':'Argentina',
-    },
-    {
+        'seleção':'Argentina'
+       },
+       {
         'ano':1982,
         'nome':'Paolo Rossi',
-        'seleção':'Itália',
-    },
-    {
+        'seleção':'Itália'
+       },
+       {
         'ano':1986,
         'nome':'Maradona',
-        'seleção':'Argentina',
-    },
-    {
-        'ano', 1990:
+        'seleção':'Argentina'
+       },
+       {
+        'ano':1990,
         'nome':'Schillaci',
-        'seleção':'Itália',
-    },
-    {
+        'seleção':'Itália'
+       },
+       {
         'ano':1994,
         'nome':'Romário',
-        'seleção':'Brasil',
-    },
-    {
+        'seleção':'Brasil'
+       },
+       {
         'ano':1998,
         'nome':'Ronaldo',
-        'seleção':'Brasil',
-    },
-    {
+        'seleção':'Brasil'
+       },
+       {
         'ano':2002,
         'nome':'Kahn',
-        'seleção':'Alemanha',
-    },
-    {
+        'seleção':'Alemanha'
+       },
+       {
         'ano':2006,
-        'nome':'Zidane',
-        'seleção':'França',
-    },
-    {
+        'nome':'Zanoane',
+        'seleção':'França'
+       },
+       {
         'ano':2010,
         'nome':'Diego Forlán',
-        'seleção':'Uruguai',
-    },
-    {
+        'seleção':'Uruguai'
+       },
+       {
         'ano':2014,
         'nome':'Messi',
-        'seleção':'Argentina',
-    },
-    {
+        'seleção':'Argentina'
+       },
+       {
         'ano':2018,
         'nome':'Modric',
-        'seleção':'Croácia',
-    }
+        'seleção':'Croácia'
+       },
 ]
