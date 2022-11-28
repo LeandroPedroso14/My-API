@@ -109,3 +109,10 @@ jogadores = [
         'seleção':'Croácia'
        },
 ]
+
+#Consultar todas informações.
+@app.route('/jogadores', methods=['GET'])
+def  obter_jogadores():
+    return jsonify(jogadores)
+app.run(porta=5000,host='localhost',debug=True)
+
