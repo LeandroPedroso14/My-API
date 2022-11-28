@@ -110,9 +110,17 @@ jogadores = [
        },
 ]
 
-#Consultar todas informações.
+#Buscar todas informações.
 @app.route('/jogadores', methods=['GET'])
 def  obter_jogadores():
-    return jsonify(jogadores)
+     return jsonify(jogadores)
 app.run(porta=5000,host='localhost',debug=True)
+
+#Buscar por ano.
+@app.route('/jogadores/<int:ano>' methods=['GET'],)
+def obter_jogador_por_ano(ano):
+    for jogadores in jogadores:
+        if jogadores.get('ano') == ano:
+             return jsonify (jogadores)
+
 
