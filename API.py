@@ -124,4 +124,4 @@ def obter_jogador_por_ano(ano):
              return jsonify (jogadores)
 
 
-app.run(porta=5000,host='localhost',debug=True)
+app.run(port=5000,host='localhost',debug=True)
