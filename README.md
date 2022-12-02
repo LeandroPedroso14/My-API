@@ -9,3 +9,7 @@ The best players of the football world cups.
 <h2 align="center">
 Information about the API.
 </h2>
+
+- API (Application Programming Interface).
+- This API contains top players from 1930 to 2018.
+- Including selections.
