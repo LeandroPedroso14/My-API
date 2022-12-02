@@ -1,5 +1,5 @@
 <h1 align="center">
-The best players of the football world cups.
+The best players of the football world cups
 </h1>
 
 <h1 align="center">
@@ -7,9 +7,13 @@ The best players of the football world cups.
 </h1>
 
 <h2 align="center">
-Information about the API.
+Information about the API
 </h2>
 
 - API (Application Programming Interface).
 - This API contains top players from 1930 to 2018.
 - Including selections.
+
+<h2 align="center">
+API modification options.
+</h2>
