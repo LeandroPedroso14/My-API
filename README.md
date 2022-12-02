@@ -7,5 +7,5 @@ The best players of the football world cups.
 </h1>
 
 <h2 align="center">
-Documentation of API.
+Information about the API.
 </h2>
