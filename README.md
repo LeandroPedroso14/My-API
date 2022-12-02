@@ -15,7 +15,7 @@ Information about the API
 - Including selections.
 
 <h2 align="center">
-API modification options.
+API modification options
 </h2>
 
 - Change player name, national team, year.
