@@ -27,3 +27,7 @@ API modification options
 <h3>Access my post on linkedin.</h3>
 
 [![Meu linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/leandro-pedroso14_python-flask-postman-activity-7003158570749849600-Q6vk?utm_source=share&utm_medium=member_desktop)
+
+<h4 align="center"> 
+	 API project updated 🔃 and completed.✅
+</h4>
