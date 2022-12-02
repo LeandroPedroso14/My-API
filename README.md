@@ -17,3 +17,9 @@ Information about the API
 <h2 align="center">
 API modification options.
 </h2>
+
+- Change player name, national team, year.
+- Add new player.
+- Delete player.
+- search by year.
+- Search for all information.
