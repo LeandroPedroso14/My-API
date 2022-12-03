@@ -28,6 +28,12 @@ API modification options
 
 [![Meu linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/leandro-pedroso14_python-flask-postman-activity-7003158570749849600-Q6vk?utm_source=share&utm_medium=member_desktop)
 
+<br>
+<br>
+
 <h4 align="center"> 
 	 API project updated 🔃 and completed.✅
 </h4>
+
+<br>
+<br>
