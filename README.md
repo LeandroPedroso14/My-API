@@ -43,3 +43,8 @@ API modification options
 </h2>
 
 Tools used to build this API:
+
+- [Python](https://www.python.org/)
+- [Flask](https://flask.palletsprojects.com/en/2.2.x/)
+- [Postman](https://www.postman.com/)
+- [VS CODE](https://code.visualstudio.com/)
