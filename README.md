@@ -37,3 +37,7 @@ API modification options
 
 <br>
 <br>
+
+<h2 align="center">
+ 🛠 Technologies
+</h2>
