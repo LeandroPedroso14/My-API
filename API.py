@@ -108,6 +108,11 @@ jogadores = [
         'nome':'Modric',
         'seleção':'Croácia'
        },
+       {
+        'ano':2022,
+        'nome':'Messi',
+        'seleção':'Argentina'
+       },
 ]
 
 #Buscar todas informações.
